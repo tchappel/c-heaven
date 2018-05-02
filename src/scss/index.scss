@@ -1,0 +1,56 @@
+$heaven-red: #c50000;
+$coffee-brown: #3b270c;
+
+* {
+  box-sizing: border-box;
+}
+/* 
+font-family: 'Crimson Text', serif;
+font-family: 'Merriweather', serif;
+*/
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-image: url(/img/coffee-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.text {
+  height: 100vh;
+  width: 45vw;
+  background-color: rgba(71, 41, 23, 0.5);
+  float: right;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  h1 {
+    font-family: 'Merriweather', serif;
+    color:white;
+    font-size: 3rem;
+    text-shadow: 4px 4px #170F0A;
+  }
+  p {
+    font-family: 'Crimson Text', serif;
+    color:white;
+    font-size: 1.5rem;
+    text-shadow: -1px 0 #170F0A, 0 1px #170F0A, 1px 0 #170F0A, 0 -1px #170F0A;
+    width: 85%;
+     
+  }
+  button {
+    background-color: #974925;
+    color: #C6A77E;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px #170F0A;
+    padding: 1rem 2rem;
+    border: none;
+  }
+}
